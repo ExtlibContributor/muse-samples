@@ -9,7 +9,7 @@ function retry(aFunction, delay, condition, times) {
   }
   else {
     if (aFunction.times > 0) {
-      console.log('condition retry')
+      console.log('condition retry test')
       setTimeout(aFunction, aFunction.delay);
     }
     else {
